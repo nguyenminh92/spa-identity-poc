@@ -9,7 +9,8 @@ export const b2cPolicies = {
     },
     authorities: {
         signUpSignIn: {
-            authority: "https://expeedsoft.b2clogin.com/expeedsoft.onmicrosoft.com/B2C_1_signupsignin1/oauth2/v2.0/authorize?domain_hint=expeed.com",
+            authority: "https://expeedsoft.b2clogin.com/expeedsoft.onmicrosoft.com/B2C_1_signupsignin1",
+            // ?domain_hint=expeed.com"
         },
         //  editProfile: {
         //      authority: "https://your-tenant-name.b2clogin.com/your-tenant-name.onmicrosoft.com/b2c_1_edit_profile_v2"

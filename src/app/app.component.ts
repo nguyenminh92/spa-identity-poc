@@ -34,7 +34,7 @@ export class AppComponent {
     if (this.msalGuardConfig.authRequest){
       authRequestConfig = { ...this.msalGuardConfig.authRequest } as RedirectRequest;
       
-      authRequestConfig.loginHint = "bob@contoso.com";
+      // authRequestConfig.loginHint = "bob@contoso.com";
 
       this.authService.loginRedirect(authRequestConfig);
       // this.authService.loginRedirect({...this.msalGuardConfig.authRequest} as RedirectRequest);
